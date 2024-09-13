@@ -1,0 +1,305 @@
+*:not(#exo7){
+    margin: 15px;
+    padding:0;
+    position:relative;
+    display:flex;
+}
+
+#button {
+    position: absolute;
+    bottom: 10px; /* Place le bouton à 20px du bas de la page */
+    left: -3%;
+    transform: translateX(-50%); /* Centre le bouton horizontalement */
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+.next-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.next-button {
+    padding: 30px 60px; /* Augmente la taille du bouton */
+    font-size: 36px; /* Augmente la taille du texte du bouton */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.next-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.next-button:hover {
+    background-color: #45a049;
+}
+
+/* ---- Exercice 1 ---- */
+#yellow-0{
+    background-color:#FFFF00;
+    top:50px;
+    left:50px;
+    width: 250px;
+    height: 150px;
+}
+ 
+#blue-0{
+    background-color:#0000FF;
+    top:100px;
+    left:75px;
+    width: 400px;
+    height: 250px;
+}
+ 
+#green-0{
+    background-color:#00FF00;
+    width: 600px;
+    height: 450px;
+    top:30px;
+    left:50px;
+}
+ 
+/* ---- Exercice 2 ---- */
+#yellow-1{
+    background-color:#FFFF00;
+    top:50px;
+    right:250px;
+    width:400px;
+    height: 150px;
+}
+ 
+#blue-1{
+    background-color:#0000FF;
+    top:100px;
+    left:150px;
+    width: 600px;
+    height: 250px;
+}
+ 
+#green-1{
+    background-color:#00FF00;
+    width: 600px;
+    height: 450px;
+    top:30px;
+    left:150px;
+}
+
+/* ---- Exercice 3 ---- */
+#yellow-2{
+    background-color:#FFFF00;
+    top:275px;
+    left:100px;
+    width:200px;
+    height: 200px;
+    position: absolute;
+}
+ 
+#blue-2{
+    background-color:#0000FF;
+    top:50px;
+    left:100px;
+    width: 600px;
+    height: 200px;
+    position: absolute;
+}
+ 
+#green-2{
+    background-color:#00FF00;
+    width: 800px;
+    height: 300px;
+    top:30px;
+    left:250px;
+    position: absolute;
+}
+
+/* ---- Exercice 4 ---- */
+#green-3 {
+    background-color: #00FF00;
+    position: absolute;
+    top: 30px;
+    left: 1250px;
+    width: 800px;
+    height: 150px;
+}
+
+#blue-3 {
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+    width: 150px;
+    height: 150px;
+}
+
+#yellow-3 {
+    background-color: yellow;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+    width: 75px;
+    height: 75px;
+}
+
+#red-3 {
+    background-color: red;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    width: 75px;
+    height: 75px;
+}
+
+/* ---- Exercice 5 A ---- */
+#green-4{
+    background-color: #00FF00;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top:30px;
+    left:2200px;
+}
+
+#blue-4{
+    background-color: #0000FF;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:20px;
+    left:20px;
+}
+
+#red-4{
+    background-color: red;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:20px;
+    left:200px;
+}
+
+#yellow-4{
+    background-color: #FFFF00;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:200px;
+    left:20px;
+}
+
+#pink-4{
+    background-color: pink;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:200px;
+    left:200px;
+}
+
+/* ---- Exercice 6  ---- */
+#green-5{
+    background-color: #00FF00;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top:30px;
+    left:2900px;
+}
+
+#blue-5{
+    background-color: #0000FF;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:20px;
+    left:20px;
+    z-index: 2;
+}
+
+#red-5{
+    background-color: red;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:50px;
+    left:50px;
+    opacity: 75%;
+    z-index: 3;
+}
+
+#yellow-5{
+    background-color: #FFFF00;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:170px;
+    left:170px;
+    z-index: 2;
+}
+
+#pink-5{
+    background-color: pink;
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top:200px;
+    left:200px;
+    z-index: 1;
+}
+
+#exo7 {
+    box-sizing: border-box;
+    width: 100%; 
+    left:3500px;
+    position:relative;
+    top: 50px;
+}
+
+#green-6 {
+    background-color: #00FF00;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    float: left; 
+}
+
+#blue-6 {
+    background-color: #0000FF;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    float: left; 
+}
+
+#red-6 {
+    background-color: red;
+    width: 350px;
+    height: 100px;
+    margin: 0px;
+    clear: both; 
+}
+
+#yellow-6 {
+    background-color: #FFFF00;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    float: right;
+}
+
+#pink-6 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    float: right; 
+}
